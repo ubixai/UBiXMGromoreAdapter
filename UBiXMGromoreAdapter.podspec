@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMGromoreAdapter'
-  s.version          = '7.1.0.7.0'
+  s.version          = '7.2.0.0.0'
   s.summary          = 'UBiX聚合广告变现SDK Grom Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
- s.dependency 'Ads-CN-Beta/BUAdSDK', '7.1.0.7'
- s.dependency 'Ads-CN-Beta/CSJMediation', '7.1.0.7'
+ s.dependency 'Ads-CN-Beta/BUAdSDK', '7.2.0.0'
+ s.dependency 'Ads-CN-Beta/CSJMediation', '7.2.0.0'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
