@@ -1,0 +1,6 @@
+framework module UBiXMGromoreAdapter {
+  umbrella header "UBiXMGromoreAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
